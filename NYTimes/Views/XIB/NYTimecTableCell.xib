@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="nYTimecTableCell" rowHeight="177" id="KGk-i7-Jjw" customClass="NYTimecTableCell" customModule="NYTimes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="514" height="177"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="514" height="176.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="KRZ-TO-OaN">
+                        <rect key="frame" x="9" y="68" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="8d5-2D-bkf"/>
+                            <constraint firstAttribute="height" constant="40" id="cOM-Gv-OuK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCA-uD-H17">
+                        <rect key="frame" x="65" y="12" width="389" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="WNh-cq-baY"/>
+                        </constraints>
+                        <string key="text">It will open a podfile like a text edit. Then set your target. For example if you want to set up Google maps then your podfile should be like</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ev7-Ur-Y3i">
+                        <rect key="frame" x="65" y="74" width="389" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="UsP-eZ-ChT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THOMPSON" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHi-Jo-bLb">
+                        <rect key="frame" x="65" y="107" width="64.5" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="aRR-Rl-ZMS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLK-Yc-1xw">
+                        <rect key="frame" x="425" y="107" width="28.5" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="r1x-Sy-32a"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfQ-yL-8DR">
+                        <rect key="frame" x="481" y="78" width="25" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="RtV-gZ-N0J"/>
+                            <constraint firstAttribute="width" constant="25" id="UWf-jJ-HPf"/>
+                        </constraints>
+                        <state key="normal" image="right-arrow"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" translatesAutoresizingMaskIntoConstraints="NO" id="1DX-qk-Usu">
+                        <rect key="frame" x="401" y="111" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="16P-2F-nds"/>
+                            <constraint firstAttribute="width" constant="16" id="6ei-sh-MjJ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VLK-Yc-1xw" firstAttribute="trailing" secondItem="Ev7-Ur-Y3i" secondAttribute="trailing" id="3V0-VB-Yc4"/>
+                    <constraint firstAttribute="trailing" secondItem="NfQ-yL-8DR" secondAttribute="trailing" constant="8" id="6L2-e0-o8x"/>
+                    <constraint firstItem="Ev7-Ur-Y3i" firstAttribute="trailing" secondItem="sCA-uD-H17" secondAttribute="trailing" id="DYB-M7-XP5"/>
+                    <constraint firstItem="sCA-uD-H17" firstAttribute="leading" secondItem="KRZ-TO-OaN" secondAttribute="trailing" constant="16" id="Dzt-jt-FwN"/>
+                    <constraint firstItem="1DX-qk-Usu" firstAttribute="centerY" secondItem="VLK-Yc-1xw" secondAttribute="centerY" id="EsI-Dc-1KZ"/>
+                    <constraint firstItem="NfQ-yL-8DR" firstAttribute="centerY" secondItem="KRZ-TO-OaN" secondAttribute="centerY" id="GQD-cI-om1"/>
+                    <constraint firstItem="VLK-Yc-1xw" firstAttribute="leading" secondItem="1DX-qk-Usu" secondAttribute="trailing" constant="8" id="GvL-vH-Anr"/>
+                    <constraint firstItem="sCA-uD-H17" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="ORT-kB-pcT"/>
+                    <constraint firstItem="KRZ-TO-OaN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="VXw-GL-jH5"/>
+                    <constraint firstAttribute="trailing" secondItem="sCA-uD-H17" secondAttribute="trailing" constant="60" id="dEh-Tb-Hs9"/>
+                    <constraint firstItem="Ev7-Ur-Y3i" firstAttribute="leading" secondItem="sCA-uD-H17" secondAttribute="leading" id="glI-YS-f22"/>
+                    <constraint firstItem="VLK-Yc-1xw" firstAttribute="centerY" secondItem="eHi-Jo-bLb" secondAttribute="centerY" id="iJ8-Jz-uNT"/>
+                    <constraint firstItem="Ev7-Ur-Y3i" firstAttribute="top" secondItem="sCA-uD-H17" secondAttribute="bottom" constant="12" id="jVY-lX-xmw"/>
+                    <constraint firstItem="eHi-Jo-bLb" firstAttribute="top" secondItem="Ev7-Ur-Y3i" secondAttribute="bottom" constant="8" id="krN-QO-DCA"/>
+                    <constraint firstItem="KRZ-TO-OaN" firstAttribute="top" secondItem="sCA-uD-H17" secondAttribute="bottom" constant="6" id="pr8-3K-mrv"/>
+                    <constraint firstItem="eHi-Jo-bLb" firstAttribute="leading" secondItem="Ev7-Ur-Y3i" secondAttribute="leading" id="rRV-vC-Ggz"/>
+                    <constraint firstItem="KRZ-TO-OaN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zxf-5J-Eda"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="headerTitleLabel" destination="sCA-uD-H17" id="Ky2-ES-dWw"/>
+                <outlet property="nyTimesImage" destination="KRZ-TO-OaN" id="dwT-Dq-3HV"/>
+                <outlet property="publishedDateLabel" destination="VLK-Yc-1xw" id="Xrs-eY-fHH"/>
+                <outlet property="rightArrowButton" destination="NfQ-yL-8DR" id="j8g-I1-KLm"/>
+                <outlet property="subTitleLabel" destination="Ev7-Ur-Y3i" id="BA7-cK-piK"/>
+            </connections>
+            <point key="canvasLocation" x="85" y="-27.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar" width="32" height="32"/>
+        <image name="right-arrow" width="32" height="32"/>
+    </resources>
+</document>
